@@ -1,0 +1,36 @@
+.productList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px 5px;
+  position: relative;
+  padding: 1rem;
+  background: linear-gradient(0deg, #e4baba 85%, transparent);
+}
+.productList::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.productList .card {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.productList .imageHolder {
+  text-align: center;
+  position: relative;
+}
+.productList .imageHolder > img {
+  width: auto;
+  max-height: 208px;
+  object-fit: contain;
+}
+.productList .imageHolder button {
+  padding: 5px;
+  color: white;
+  background-color: #c7003d;
+  border: 1px solid;
+  width: 250px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

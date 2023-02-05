@@ -1,0 +1,19 @@
+.Pre_headerall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c7003d !important;
+  padding-right: 10px;
+  padding-left: 10px;
+  vertical-align: baseline;
+}
+.Pre_headerall > span {
+  padding-right: 25%;
+  color: white;
+  cursor: pointer;
+}
+.Pre_headercontent {
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.whole_about {
+  background-color: #f7f7f7;
+  width: 100%;
+  min-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  line-height: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 12px;
+}
+.about_web {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+hr {
+  padding: 0%;
+}

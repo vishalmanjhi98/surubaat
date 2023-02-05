@@ -1,0 +1,38 @@
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: black;
+  padding: 30px;
+}
+.login .container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  padding: 20px 30px;
+  background-color: #c7003d;
+  color: white;
+}
+.login .container input {
+  width: 94.5%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+.login .container hr {
+  width: 100%;
+  margin-top: 30px;
+}
+.login .container button {
+  padding: 5px;
+  background-color: white;
+  color: #c7003d;
+  border: 1px solid;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.frist {
+  padding-left: 20%;
+  text-decoration: underline;
+}
